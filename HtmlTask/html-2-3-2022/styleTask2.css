@@ -1,0 +1,21 @@
+h1 {
+    background-color: red;
+}
+
+.IMGstyle {
+    background-size: cover;
+    width: 330px;
+    height: 310px;
+    background-image: url(../../images/pokemon.jpeg);
+
+}
+ 
+.IMGstyle p {
+    color: red;
+    padding: 10px;
+    text-align: center;
+}
+
+ul {
+    font-weight: 900;
+}
