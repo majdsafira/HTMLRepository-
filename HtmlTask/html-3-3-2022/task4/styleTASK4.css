@@ -1,0 +1,8 @@
+.img {
+    position: fixed;
+    width: 130px;
+    height: 400px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzOWoGM8t3DIfw5spK-8zlx0ot-aP0SCbr9jue9aGL3r3gUhb3MkmRuRF90oeMWorD0L0&usqp=CAU);
+    top: 15px;
+    left: 90%;
+}

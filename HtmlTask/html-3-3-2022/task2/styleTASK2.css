@@ -1,0 +1,13 @@
+.class {
+    display: inline;
+    width: 20px;
+    height: 20px;
+    margin: 3px;
+    padding: 2px;
+    border-radius: 6px;
+    border-top: 3px solid;
+    border-right: 4px outset;
+    border-left: 3px solid;
+    border-bottom: 4px outset;
+    
+  }
