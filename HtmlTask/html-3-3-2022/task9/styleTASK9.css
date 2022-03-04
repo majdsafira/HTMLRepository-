@@ -1,0 +1,41 @@
+.class {
+    display: inline-block;
+    height: 250px;
+    width: 75%;
+    background-color: white;
+    margin: 5px;
+    overflow: hidden;
+    border: solid black;
+    padding: 5px;
+    
+}
+body {
+    background-color: rgb(230, 230, 139);
+}
+
+.textcolor {
+    background-color: rgb(165, 81, 42);
+}
+.textcolor1 {
+    background-color: rgb(231, 231, 82);
+}
+
+.class1 {
+    display: inline-block;
+    height: 250px;
+    width: 75%;
+    background-color: white;
+    margin: 5px;
+    overflow: hidden;
+    border-style: dotted;
+    padding: 5px;
+    color: red;
+    
+}
+.class2 {
+    background-color: white;
+    border-style: dotted;
+    color: red;
+    margin: 5px;
+    
+}

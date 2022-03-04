@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(230, 230, 139);
+}
+
+.textcolor {
+    background-color: rgb(165, 81, 42);
+}
+
+.textcolor1 {
+    background-color: rgb(231, 231, 82);
+}
+
+.class {
+    display: inline-block;
+    height: 300px;
+    width: 75%;
+    background-color: white;
+    margin: 5px;
+    overflow: hidden;
+    border: solid black;
+    padding: 5px;
+    
+}
+
+.class1 {
+    display: inline-block;
+    height: 250px;
+    width: 75%;
+    background-color: white;
+    margin: 5px;
+    overflow: hidden;
+    border-style: dotted;
+    padding: 5px;
+    
+}
+
+.class2 {
+    background-color: white;
+    border-style: dotted;
+    margin: 5px;
+    border-color: red;
+    
+}
+
+.class3 {
+    display: inline-block;
+    height: 300px;
+    width: 75%;
+    background-color: white;
+    margin: 5px;
+    overflow: hidden;
+    border: solid black;
+    padding: 5px;
+    color: rgb(87, 23, 148);
+}
