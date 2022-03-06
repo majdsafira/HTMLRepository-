@@ -1,0 +1,17 @@
+.class {
+    border: 50%;
+    width: 150px;
+    height: 150px;
+    background-image: linear-gradient(to right, green , yellow);
+    position: relative;
+    animation-name: square;
+    animation-duration: 5s;
+}
+
+@keyframes square {
+    0% { background-image: linear-gradient(to right, green , yellow); left:0px; top:0px}
+    25% { background-image: linear-gradient(to right, rgb(128, 0, 0) , rgb(17, 0, 255)); left:300px; top:0px}
+    50% { background-image: linear-gradient(to right, rgb(128, 0, 117) , rgb(0, 255, 55)); left:300px; top:300px}
+    75% { background-image: linear-gradient(to right, rgb(128, 83, 0) , rgb(255, 0, 0)); left:0px; top:300px}
+    100% { background-image: linear-gradient(to right, rgb(128, 119, 0) , rgb(0, 255, 149)); left:0px; top:0px}
+}

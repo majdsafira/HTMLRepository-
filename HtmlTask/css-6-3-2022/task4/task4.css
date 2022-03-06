@@ -1,0 +1,17 @@
+.class {
+    border: solid black 8px;
+    border-radius: 100%;
+    background-color: rgb(209, 143, 21);
+    height: 300px;
+    width: 300px;
+    animation-name: circle;
+    animation-duration: 5s;
+    position: relative;
+}
+
+@keyframes circle {
+  0% {left:-30px; top:0px}
+  50%{left:900px; top:0px}
+  100% {left:-930px; top:0px}
+  
+}
