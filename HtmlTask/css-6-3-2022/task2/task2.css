@@ -1,0 +1,18 @@
+.class {
+    
+    transition-timing-function: linear;
+}
+
+div { 
+     border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background: green;
+    transition-property: width, height; 
+    transition-duration: 2s;
+  }
+  div:hover {
+    
+      width: 300px;
+      height: 300px;
+  }

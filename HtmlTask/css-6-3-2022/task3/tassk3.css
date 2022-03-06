@@ -1,0 +1,56 @@
+.class{
+    background-color: black;
+    width: 50px;
+    height: 150px;
+    border-radius: 10px;
+    padding: 10px 5px;
+      
+}
+
+.class div {
+    background-color: gray;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    padding: 2px;
+    
+}
+
+
+.red {
+    animation-name: red;
+    animation-duration: 1s;
+}
+
+.yellow {
+    animation-name: yellow;
+    animation-duration: 1s;
+    animation-delay: 1s;
+}
+
+.green {
+    animation-name: green;
+    animation-duration: 1s;
+    animation-delay: 2s;
+}
+
+@keyframes red {
+  to {
+      background-color: red;
+  }  
+
+}
+
+@keyframes yellow {
+    to {
+        background-color: yellow;
+
+    }
+}
+
+@keyframes green {
+    to {
+        background-color: green;
+
+    }
+}
