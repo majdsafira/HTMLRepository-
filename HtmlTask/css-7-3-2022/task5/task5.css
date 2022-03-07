@@ -1,0 +1,31 @@
+.class {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, calc(100%/2));
+    grid-template-rows: repeat(3, 300px);
+    grid-gap: 5px;
+    
+}
+@media screen and (min-width: 480px) and (max-width: 768px)
+{ 
+    .class {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, calc(100%/4));
+    grid-template-rows: repeat(3, 300px);
+    grid-gap: 5px;
+    
+    
+}
+}
+@media screen and (max-width: 479px){
+    .class {
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, calc(100%/4));
+        grid-template-rows: repeat(3, 300px);
+        grid-gap: 5px;
+        
+    }
+
+}

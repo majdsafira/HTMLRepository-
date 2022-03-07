@@ -1,0 +1,60 @@
+.class {
+    border: 2px yellow;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 700px;
+}
+
+.one {
+    width: 100%;
+    background-color: red;
+    
+}
+
+.two {   
+     width: 100%;
+    background-color: rgb(153, 0, 255);
+    
+}
+
+.three {
+    width: 100%;
+    background-color: rgb(255, 174, 0);
+    
+}
+
+.four {
+    width: 100%;
+    background-color: aqua;
+}
+
+.five {
+    width: 100%;
+    background-color: pink;
+    
+}
+
+.six {
+    width: 100%;
+    background-color: black;
+    
+}
+
+.seven {
+    width: 100%;
+    background-color: brown;
+    
+}
+
+.eight {
+    width: 100%;
+    background-color: blue;
+    
+}
+
+.nine {
+    width: 100%;
+    background-color: green;
+    
+}
