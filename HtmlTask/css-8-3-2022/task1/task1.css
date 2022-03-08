@@ -1,0 +1,9 @@
+@media print {
+    img {
+
+    display: none;
+    }
+    p {
+        color: red;
+    }
+}
